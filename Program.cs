@@ -1,8 +1,17 @@
 using System;
-class Program
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Poker
 {
-    static void Main()
+    class Program
     {
-        Console.WriteLine("Yoker");
+        static void Main()
+        {
+            Spade s1 = new Spade(3);
+        }
     }
 }
+
