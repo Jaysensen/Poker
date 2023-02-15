@@ -5,13 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Poker 
+namespace Poker
 {
     public abstract class BaseCard
     {
-        public abstract int Value; { get; set; }
+        public int Value { get; set; }
 
         public abstract ushort Precedence { get; set; }
-
     }
 }
